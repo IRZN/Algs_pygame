@@ -1,15 +1,12 @@
-# Nome do Jogo
+# Space Combat
 
 Projeto final da disciplina de Introdução a Algoritmos/Programação, desenvolvido com Python e Pygame.
 
-Este repositório é um template para os grupos da disciplina. A proposta é começar com uma base funcional e evoluir o jogo ao longo do semestre.
+O jogo consiste em controlar uma nave espacial que deve desviar de meteoros para sobreviver o maior tempo possível.
 
 ## Integrantes do grupo
 
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
-- Nome do integrante 4
+- Iury Emanuel Alves da Silva
 
 ## Estrutura do projeto
 
@@ -22,53 +19,34 @@ Este repositório é um template para os grupos da disciplina. A proposta é com
 
 ## Descrição do jogo
 
-Descreva brevemente a ideia principal do jogo.
+> O jogador controla uma nave espacial que se move horizontalmente na parte inferior da tela. Meteoros caem do topo da tela em posições aleatórias. O objetivo é desviar dos meteoros e sobreviver o maior tempo possível.
 
-Exemplo:
-
-> O jogo consiste em controlar um personagem que deve coletar moedas e evitar obstáculos. O jogador ganha pontos ao coletar itens e perde vidas ao colidir com obstáculos. A partida termina quando o tempo acaba ou quando o jogador perde todas as vidas.
+> A dificuldade aumenta conforme o tempo de jogo.
 
 ## Objetivo do jogador
 
-Explique o que o jogador precisa fazer para vencer ou avançar no jogo.
-
-Exemplo:
-
-> O objetivo é coletar a maior quantidade possível de itens antes que o tempo acabe, evitando colisões com os obstáculos.
+> O objetivo é sobreviver o maior tempo possível desviando dos meteoros e alcançando a maior pontuação possível.
 
 ## Regras do jogo
 
-Liste as principais regras do jogo.
-
-Exemplo:
-
-- O jogador se movimenta usando as setas do teclado.
-- Cada item coletado aumenta a pontuação.
-- Colidir com um obstáculo reduz a quantidade de vidas.
-- A partida termina quando o jogador perde todas as vidas ou quando o tempo acaba.
+- O jogador controla uma nave com o teclado.
+- Meteoros aparecem aleatoriamente no topo da tela.
+- Colidir com um meteoro encerra a partida.
+- A pontuação aumenta conforme o tempo de sobrevivência.
+- O recorde é salvo automaticamente em arquivo.
 
 ## Controles
 
-Informe as teclas ou comandos utilizados no jogo.
-
-Exemplo:
-
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
+- Seta para esquerda: mover a nave para a esquerda
+- Seta para direita: mover a nave para a direita
 - ESC: sair do jogo
 
 ## Como executar o projeto
 
-### 1. Clonar o repositório
+### 1. Instalar dependências
 
 ```bash
-git clone LINK_DO_REPOSITORIO
-cd NOME_DA_PASTA
 pip install -r requirements.txt
-python main.py
 ```
 
 ## Como executar os testes
